@@ -26,7 +26,7 @@ Finalmente construimos la imagen desde el directorio donde esta nuestro `Dockerf
 
 2) Cuando tenemos la imagen podemos correr nuestro servidor, exponiendo el puerto `8002` en el host, con el siguiente comando desde el cmd de windows, por ejemplo. Notese que mapeamos el directorio donde se almacenan los resultados de las busquedas, para poder acceder a ellas desde fuera del contenedor
 
-`$ docker run -p 8002:8000 -v //c//Users/Carmen/_demo/sse_project/papers:/app/papers arxiv-mcp-server`
+`$ docker run -p 8002:8000 -v //c//Users/Carmen/_demo/sse_mcp_project/papers:/app/papers arxiv-mcp-server`
 
 Arrancamos el `inspector`, que tambien puede arrancarse con un comando de Node
 
